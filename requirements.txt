@@ -1,0 +1,11 @@
+
+---
+
+# 📦 5. requirements.txt
+
+```txt
+pandas
+numpy
+yfinance
+openpyxl
+XlsxWriter
