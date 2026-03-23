@@ -52,17 +52,4 @@ Calcular indicadores financeiros essenciais:
 ```bash
 pip install -r requirements.txt
 python main.py
-```bash
-
----
-
-📬 Contato
-
-📧 Email: leandro.petruz@gmail.com
-
-📱 WhatsApp: (19) 99590-2992
-
-💼 LinkedIn: https://www.linkedin.com/in/leandro-petruz-0208b84b 
-
-Portifolio GitHub: https://petruzl.github.io/ 
 
