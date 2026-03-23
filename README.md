@@ -27,6 +27,8 @@ Calcular indicadores financeiros essenciais:
 ---
 
 ## 📂 Estrutura
+
+```bash
 Analise_Acoes_Bolsa_Valores_B3/
 │
 ├── data/
@@ -45,6 +47,7 @@ Analise_Acoes_Bolsa_Valores_B3/
 ├── main.py
 ├── requirements.txt
 └── README.md
+```
 ---
 
 ## ⚙️ Pipeline
@@ -59,8 +62,8 @@ Analise_Acoes_Bolsa_Valores_B3/
 ## 📊 Exemplo de saída
 
 | Empresa | Preço | LPA | VPA | P/L | P/VP |
-|--------|------|-----|-----|-----|------|
-| VALE3 | 75.81 | X | X | X | X |
+|---------|-------|-----|-----|-----|------|
+| xxxxxxx |  X    |  X  |  X  |  X  |   X  |
 
 ---
 
@@ -69,7 +72,7 @@ Analise_Acoes_Bolsa_Valores_B3/
 ```bash
 pip install -r requirements.txt
 python main.py
-
+```
 ---
 
 ## 📬 Contato
