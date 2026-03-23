@@ -27,7 +27,24 @@ Calcular indicadores financeiros essenciais:
 ---
 
 ## 📂 Estrutura
-
+Analise_Acoes_Bolsa_Valores_B3/
+│
+├── data/
+│   ├── raw/          # arquivos CVM
+│   ├── processed/    # dados tratados
+│
+├── output/
+│   └── LPA_VPA.xlsx
+│
+├── src/
+│   ├── extract.py
+│   ├── transform.py
+│   ├── load.py
+│   ├── market.py
+│
+├── main.py
+├── requirements.txt
+└── README.md
 ---
 
 ## ⚙️ Pipeline
@@ -53,3 +70,13 @@ Calcular indicadores financeiros essenciais:
 pip install -r requirements.txt
 python main.py
 
+---
+
+## 📬 Contato
+
+📧 Email: leandro.petruz@gmail.com
+
+📱 WhatsApp: (19) 99590-2992
+💼 LinkedIn: https://www.linkedin.com/in/leandro-petruz-0208b84b
+
+🌐 Portfólio: https://petruzl.github.io/
