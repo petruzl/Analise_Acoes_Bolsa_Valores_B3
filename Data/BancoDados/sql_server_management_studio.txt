@@ -1,0 +1,15 @@
+criar o banco
+CREATE DATABASE AnaliseAcoes;
+
+tabelas
+CREATE TABLE analise_acoes (
+    ticker VARCHAR(10),
+    empresa VARCHAR(200),
+    preco FLOAT,
+    lpa FLOAT,
+    vpa FLOAT,
+    pl FLOAT,
+    pvp FLOAT,
+    n_acoes BIGINT,
+    data_execucao DATETIME DEFAULT GETDATE()
+);
