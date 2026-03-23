@@ -1,6 +1,8 @@
+<<<<<<< HEAD
 # 📊 Análise Fundamentalista - LPA / VPA (CVM + Mercado)
 
 Projeto de análise fundamentalista automatizada utilizando dados da CVM e integração com mercado via Yahoo Finance.
+
 
 ---
 
@@ -68,3 +70,4 @@ python main.py
 💼 LinkedIn: https://www.linkedin.com/in/leandro-petruz-0208b84b 
 
 Portifolio GitHub: https://petruzl.github.io/ 
+
