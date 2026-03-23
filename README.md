@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 📊 Análise Fundamentalista - LPA / VPA (CVM + Mercado)
 
 Projeto de análise fundamentalista automatizada utilizando dados da CVM e integração com mercado via Yahoo Finance.
@@ -29,11 +28,6 @@ Calcular indicadores financeiros essenciais:
 
 ## 📂 Estrutura
 
-data/raw → arquivos CVM
-src → pipeline (ETL)
-output → resultado final
-
-
 ---
 
 ## ⚙️ Pipeline
@@ -58,6 +52,7 @@ output → resultado final
 ```bash
 pip install -r requirements.txt
 python main.py
+```bash
 
 ---
 
