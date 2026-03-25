@@ -5,46 +5,12 @@ from datetime import datetime
 from src.config import DATA_RAW_ITR, DATA_OUTPUT
 from src.logger import setup_logger
 import yfinance as yf
+from src.database import get_engine
 
 logger = setup_logger()
 
 mapa_empresas = {
-                        'BRSR3.SA': 'BCO ESTADO DO RIO GRANDE DO SUL S.A.',
-                        'BBAS3.SA': 'BCO BRASIL S.A.',
-                        'ITUB3.SA': 'ITAU UNIBANCO HOLDING S.A.',
-                        'BBDC3.SA': 'BCO BRADESCO S.A.',
-                        'SANB3.SA': 'BCO SANTANDER (BRASIL) S.A.',
-                        'RAIZ4.SA': 'RAÍZEN S.A.',
-                        'VBBR3.SA': 'VIBRA ENERGIA S/A',
-                        'UGPA3.SA': 'ULTRAPAR PARTICIPACOES S.A.',
-                        'AURE3.SA': 'AUREN ENERGIA S.A.',
-                        'TAEE3.SA': 'TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.',
-                        'AXIA3.SA': 'CENTRAIS ELET BRAS S.A. - ELETROBRAS',
-                        'EGIE3.SA': 'ENGIE BRASIL ENERGIA S.A.',
-                        'CPFE3.SA': 'CPFL ENERGIA S.A.',
-                        'JHSF3.SA': 'JHSF PARTICIPACOES S.A.',
-                        'CYRE3.SA': 'CYRELA BRAZIL REALTY S.A.EMPREEND E PART',
-                        'MRVE3.SA': 'MRV ENGENHARIA E PARTICIPACOES S.A.',
-                        'EZTC3.SA': 'EZ TEC EMPREEND. E PARTICIPACOES S.A.',
-                        'SAPR3.SA': 'CIA. DE SANEAMENTO DO PARANÁ - SANEPAR',
-                        'SBSP3.SA': 'CIA SANEAMENTO BASICO EST SAO PAULO',
-                        'CSMG3.SA': 'CIA SANEAMENTO DE MINAS GERAIS-COPASA MG',
-                        'BBSE3.SA': 'BB SEGURIDADE PARTICIPAÇÕES S.A.',
-                        'CXSE3.SA': 'CAIXA SEGURIDADE PARTICIPAÇÕES S.A.',
-                        'PSSA3.SA': 'PORTO SEGURO S.A.',
-                        'IRBR3.SA': 'IRB - BRASIL RESSEGUROS S.A.',
-                        'TOTS3.SA': 'TOTVS S.A.',
-                        'LWSA3.SA': 'LWSA S/A',
-                        'POSI3.SA': 'POSITIVO TECNOLOGIA S.A.',
-                        'MGLU3.SA': 'MAGAZINE LUIZA S.A.',
-                        'LREN3.SA': 'LOJAS RENNER S.A.',
-                        'BHIA3.SA': 'GRUPO CASAS BAHIA S.A.',
-                        'VALE3.SA': 'VALE S.A.',
-                        'GGBR4.SA': 'GERDAU S.A.',
-                        'CSNA3.SA': 'CSN MINERAÇÃO S.A.',
-                        'JBSS3.SA': 'JBS S.A.',
-                        'MRFG3.SA': 'MARFRIG GLOBAL FOODS S.A.',
-                        'BRFS3.SA': 'BRF S.A.'
+                        'JHSF3.SA': 'JHSF PARTICIPACOES S.A.'
                         }
 def run_transform():
 
@@ -70,6 +36,9 @@ def run_transform():
             logger.error(f"Erro ao ler {f}: {e}")
 
     # 🔹 Concat (corrige warning)
+    bpp_consolidado = [df for df in bpp_consolidado if not df.empty]
+    dre_consolidado = [df for df in dre_consolidado if not df.empty]
+
     bpp_consolidado = pd.concat(bpp_consolidado, ignore_index=True)
     dre_consolidado = pd.concat(dre_consolidado, ignore_index=True)
 
@@ -123,42 +92,7 @@ def run_transform():
 
     # 🔹 Mercado (Yahoo Finance)
     tickers = [
-                'BRSR3.SA',
-                'BBAS3.SA',
-                'ITUB3.SA',
-                'BBDC3.SA',
-                'SANB3.SA',
-                'RAIZ4.SA',
-                'VBBR3.SA',
-                'UGPA3.SA',
-                'AURE3.SA',
-                'TAEE3.SA',
-                'AXIA3.SA',
-                'EGIE3.SA',
-                'CPFE3.SA',
-                'JHSF3.SA',
-                'CYRE3.SA',
-                'MRVE3.SA',
-                'EZTC3.SA',
-                'SAPR3.SA',
-                'SBSP3.SA',
-                'CSMG3.SA',
-                'BBSE3.SA',
-                'CXSE3.SA',
-                'PSSA3.SA',
-                'IRBR3.SA',
-                'TOTS3.SA',
-                'LWSA3.SA',
-                'POSI3.SA',
-                'MGLU3.SA',
-                'LREN3.SA',
-                'BHIA3.SA',
-                'VALE3.SA',
-                'GGBR4.SA',
-                'CSNA3.SA',
-                'JBSS3.SA',
-                'MRFG3.SA',
-                'BRFS3.SA'
+                'JHSF3.SA'
             ]
 
     resultados = pd.DataFrame()
@@ -183,11 +117,11 @@ def run_transform():
         except Exception as e:
             logger.error(f"Erro mercado {t}: {e}")
 
-        # 🔹 Ajuste nomes empresas (ticker → empresa)
-        resultados['Empresa'] = resultados.index.to_series().map(mapa_empresas)
+    # 🔹 Ajuste nomes empresas (ticker → empresa)
+    resultados['Empresa'] = resultados.index.to_series().map(mapa_empresas)
 
-        # Corrige fillna (SEM inplace e usando Series)
-        resultados['Empresa'] = resultados['Empresa'].fillna(resultados.index.to_series())
+    # Corrige fillna (SEM inplace e usando Series)
+    resultados['Empresa'] = resultados['Empresa'].fillna(resultados.index.to_series())
 
     # 🔹 Merge dados fundamentalistas
     df_final = resultados.merge(
@@ -232,3 +166,30 @@ def run_transform():
     df_final.to_excel(caminho_saida, index=True)
 
     logger.info(f"Resultado salvo em {caminho_saida}")
+    
+    # 🔹 Salvar no SQL Server
+    try:
+        engine = get_engine()
+
+        df_sql = df_final.copy()
+
+        # reset index pra virar coluna
+        df_sql.reset_index(inplace=True)
+        df_sql.rename(columns={'index': 'Ticker'}, inplace=True)
+
+        # adiciona data de execução (ESSENCIAL pra histórico)
+        df_sql['Data_Execucao'] = datetime.now()
+
+        df_sql.to_sql(
+            'historico_acoes',  # nome da tabela
+            con=engine,
+            if_exists='append',  # 🔥 mantém histórico
+            index=False
+        )
+
+        df_sql.drop_duplicates(subset=['Ticker', 'Data_Execucao'], inplace=True)
+
+        logger.info("Dados salvos no SQL Server com sucesso")
+
+    except Exception as e:
+        logger.error(f"Erro ao salvar no SQL Server: {e}")
