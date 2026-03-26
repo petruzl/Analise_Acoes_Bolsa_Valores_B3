@@ -2205,3 +2205,952 @@
 2026-03-25 11:23:24,272 - INFO - Resultado salvo em c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\processed\resultado_20260325_112324.xlsx
 2026-03-25 11:23:24,466 - INFO - Dados salvos no SQL Server com sucesso
 2026-03-25 11:23:24,468 - INFO - Pipeline finalizado
+2026-03-25 11:43:36,722 - INFO - INÍCIO DO PIPELINE
+2026-03-25 11:43:45,993 - INFO - 020605 - BPA carregado (390, 15)
+2026-03-25 11:43:55,780 - INFO - 020605 - BPP carregado (750, 15)
+2026-03-25 11:44:03,594 - INFO - 020605 - DRE carregado (420, 16)
+2026-03-25 11:44:04,211 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_020605.xlsx
+2026-03-25 11:44:04,212 - INFO - Tempo total ITR: 27.48991560935974
+2026-03-25 11:44:06,605 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_020605.xlsx
+2026-03-25 11:44:07,106 - INFO - Tempo total DFP: 2.7045130729675293
+2026-03-25 11:44:07,127 - INFO - Iniciando transformação e cálculo de indicadores
+2026-03-25 11:44:07,663 - INFO - Arquivo carregado: ITR_000906.xlsx
+2026-03-25 11:44:07,860 - INFO - Arquivo carregado: ITR_001023.xlsx
+2026-03-25 11:44:08,076 - INFO - Arquivo carregado: ITR_001210.xlsx
+2026-03-25 11:44:08,455 - INFO - Arquivo carregado: ITR_002437.xlsx
+2026-03-25 11:44:08,805 - INFO - Arquivo carregado: ITR_003980.xlsx
+2026-03-25 11:44:09,095 - INFO - Arquivo carregado: ITR_004170.xlsx
+2026-03-25 11:44:09,417 - INFO - Arquivo carregado: ITR_006505.xlsx
+2026-03-25 11:44:09,700 - INFO - Arquivo carregado: ITR_008133.xlsx
+2026-03-25 11:44:10,051 - INFO - Arquivo carregado: ITR_014443.xlsx
+2026-03-25 11:44:10,350 - INFO - Arquivo carregado: ITR_014460.xlsx
+2026-03-25 11:44:10,748 - INFO - Arquivo carregado: ITR_016292.xlsx
+2026-03-25 11:44:11,075 - INFO - Arquivo carregado: ITR_016659.xlsx
+2026-03-25 11:44:11,426 - INFO - Arquivo carregado: ITR_017329.xlsx
+2026-03-25 11:44:11,727 - INFO - Arquivo carregado: ITR_018465.xlsx
+2026-03-25 11:44:11,746 - INFO - Arquivo carregado: ITR_018627.xlsx
+2026-03-25 11:44:12,107 - INFO - Arquivo carregado: ITR_018660.xlsx
+2026-03-25 11:44:12,328 - INFO - Arquivo carregado: ITR_019348.xlsx
+2026-03-25 11:44:12,632 - INFO - Arquivo carregado: ITR_019445.xlsx
+2026-03-25 11:44:12,976 - INFO - Arquivo carregado: ITR_019992.xlsx
+2026-03-25 11:44:13,276 - INFO - Arquivo carregado: ITR_020257.xlsx
+2026-03-25 11:44:13,607 - INFO - Arquivo carregado: ITR_020362.xlsx
+2026-03-25 11:44:13,821 - INFO - Arquivo carregado: ITR_020532.xlsx
+2026-03-25 11:44:14,151 - INFO - Arquivo carregado: ITR_020575.xlsx
+2026-03-25 11:44:14,530 - INFO - Arquivo carregado: ITR_020605.xlsx
+2026-03-25 11:44:14,814 - INFO - Arquivo carregado: ITR_020770.xlsx
+2026-03-25 11:44:15,150 - INFO - Arquivo carregado: ITR_020788.xlsx
+2026-03-25 11:44:15,446 - INFO - Arquivo carregado: ITR_020915.xlsx
+2026-03-25 11:44:15,749 - INFO - Arquivo carregado: ITR_022470.xlsx
+2026-03-25 11:44:16,028 - INFO - Arquivo carregado: ITR_023159.xlsx
+2026-03-25 11:44:16,341 - INFO - Arquivo carregado: ITR_023795.xlsx
+2026-03-25 11:44:16,603 - INFO - Arquivo carregado: ITR_024180.xlsx
+2026-03-25 11:44:16,895 - INFO - Arquivo carregado: ITR_024295.xlsx
+2026-03-25 11:44:17,226 - INFO - Arquivo carregado: ITR_024910.xlsx
+2026-03-25 11:44:17,503 - INFO - Arquivo carregado: ITR_025585.xlsx
+2026-03-25 11:44:17,833 - INFO - Arquivo carregado: ITR_025917.xlsx
+2026-03-25 11:44:18,119 - INFO - Arquivo carregado: ITR_026620.xlsx
+2026-03-25 11:44:19,552 - INFO - JHSF3.SA processado com sucesso
+2026-03-25 11:44:19,558 - INFO - Preço: 8.800000190734863
+2026-03-25 11:58:28,465 - INFO - INÍCIO DO PIPELINE
+2026-03-25 11:58:38,679 - INFO - 020605 - BPA carregado (390, 15)
+2026-03-25 11:58:49,593 - INFO - 020605 - BPP carregado (750, 15)
+2026-03-25 11:58:57,200 - INFO - 020605 - DRE carregado (420, 16)
+2026-03-25 11:58:57,822 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_020605.xlsx
+2026-03-25 11:58:57,823 - INFO - Tempo total ITR: 29.356024265289307
+2026-03-25 11:59:00,055 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_020605.xlsx
+2026-03-25 11:59:00,556 - INFO - Tempo total DFP: 2.5470921993255615
+2026-03-25 11:59:00,575 - INFO - Iniciando transformação e cálculo de indicadores
+2026-03-25 11:59:01,108 - INFO - Arquivo carregado: ITR_000906.xlsx
+2026-03-25 11:59:01,305 - INFO - Arquivo carregado: ITR_001023.xlsx
+2026-03-25 11:59:01,521 - INFO - Arquivo carregado: ITR_001210.xlsx
+2026-03-25 11:59:01,898 - INFO - Arquivo carregado: ITR_002437.xlsx
+2026-03-25 11:59:02,243 - INFO - Arquivo carregado: ITR_003980.xlsx
+2026-03-25 11:59:02,526 - INFO - Arquivo carregado: ITR_004170.xlsx
+2026-03-25 11:59:02,843 - INFO - Arquivo carregado: ITR_006505.xlsx
+2026-03-25 11:59:03,121 - INFO - Arquivo carregado: ITR_008133.xlsx
+2026-03-25 11:59:03,467 - INFO - Arquivo carregado: ITR_014443.xlsx
+2026-03-25 11:59:03,768 - INFO - Arquivo carregado: ITR_014460.xlsx
+2026-03-25 11:59:04,164 - INFO - Arquivo carregado: ITR_016292.xlsx
+2026-03-25 11:59:04,490 - INFO - Arquivo carregado: ITR_016659.xlsx
+2026-03-25 11:59:04,841 - INFO - Arquivo carregado: ITR_017329.xlsx
+2026-03-25 11:59:05,146 - INFO - Arquivo carregado: ITR_018465.xlsx
+2026-03-25 11:59:05,168 - INFO - Arquivo carregado: ITR_018627.xlsx
+2026-03-25 11:59:05,523 - INFO - Arquivo carregado: ITR_018660.xlsx
+2026-03-25 11:59:05,743 - INFO - Arquivo carregado: ITR_019348.xlsx
+2026-03-25 11:59:06,043 - INFO - Arquivo carregado: ITR_019445.xlsx
+2026-03-25 11:59:06,381 - INFO - Arquivo carregado: ITR_019992.xlsx
+2026-03-25 11:59:06,682 - INFO - Arquivo carregado: ITR_020257.xlsx
+2026-03-25 11:59:07,006 - INFO - Arquivo carregado: ITR_020362.xlsx
+2026-03-25 11:59:07,221 - INFO - Arquivo carregado: ITR_020532.xlsx
+2026-03-25 11:59:07,547 - INFO - Arquivo carregado: ITR_020575.xlsx
+2026-03-25 11:59:07,864 - INFO - Arquivo carregado: ITR_020605.xlsx
+2026-03-25 11:59:08,144 - INFO - Arquivo carregado: ITR_020770.xlsx
+2026-03-25 11:59:08,473 - INFO - Arquivo carregado: ITR_020788.xlsx
+2026-03-25 11:59:08,769 - INFO - Arquivo carregado: ITR_020915.xlsx
+2026-03-25 11:59:09,080 - INFO - Arquivo carregado: ITR_022470.xlsx
+2026-03-25 11:59:09,362 - INFO - Arquivo carregado: ITR_023159.xlsx
+2026-03-25 11:59:09,667 - INFO - Arquivo carregado: ITR_023795.xlsx
+2026-03-25 11:59:09,928 - INFO - Arquivo carregado: ITR_024180.xlsx
+2026-03-25 11:59:10,217 - INFO - Arquivo carregado: ITR_024295.xlsx
+2026-03-25 11:59:10,535 - INFO - Arquivo carregado: ITR_024910.xlsx
+2026-03-25 11:59:10,808 - INFO - Arquivo carregado: ITR_025585.xlsx
+2026-03-25 11:59:11,135 - INFO - Arquivo carregado: ITR_025917.xlsx
+2026-03-25 11:59:11,420 - INFO - Arquivo carregado: ITR_026620.xlsx
+2026-03-25 11:59:12,962 - INFO - JHSF3.SA processado com sucesso
+2026-03-25 12:02:57,733 - INFO - INÍCIO DO PIPELINE
+2026-03-25 12:03:06,216 - INFO - 020605 - BPA carregado (390, 15)
+2026-03-25 12:03:15,698 - INFO - 020605 - BPP carregado (750, 15)
+2026-03-25 12:03:24,657 - INFO - 020605 - DRE carregado (420, 16)
+2026-03-25 12:03:25,272 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_020605.xlsx
+2026-03-25 12:03:25,273 - INFO - Tempo total ITR: 27.539673805236816
+2026-03-25 12:03:27,530 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_020605.xlsx
+2026-03-25 12:03:28,032 - INFO - Tempo total DFP: 2.572371006011963
+2026-03-25 12:03:28,051 - INFO - Iniciando transformação e cálculo de indicadores
+2026-03-25 12:03:28,582 - INFO - Arquivo carregado: ITR_000906.xlsx
+2026-03-25 12:03:28,779 - INFO - Arquivo carregado: ITR_001023.xlsx
+2026-03-25 12:03:29,000 - INFO - Arquivo carregado: ITR_001210.xlsx
+2026-03-25 12:03:29,384 - INFO - Arquivo carregado: ITR_002437.xlsx
+2026-03-25 12:03:29,738 - INFO - Arquivo carregado: ITR_003980.xlsx
+2026-03-25 12:03:30,028 - INFO - Arquivo carregado: ITR_004170.xlsx
+2026-03-25 12:03:30,347 - INFO - Arquivo carregado: ITR_006505.xlsx
+2026-03-25 12:03:30,632 - INFO - Arquivo carregado: ITR_008133.xlsx
+2026-03-25 12:03:30,983 - INFO - Arquivo carregado: ITR_014443.xlsx
+2026-03-25 12:03:31,294 - INFO - Arquivo carregado: ITR_014460.xlsx
+2026-03-25 12:03:31,692 - INFO - Arquivo carregado: ITR_016292.xlsx
+2026-03-25 12:03:32,020 - INFO - Arquivo carregado: ITR_016659.xlsx
+2026-03-25 12:03:32,378 - INFO - Arquivo carregado: ITR_017329.xlsx
+2026-03-25 12:03:32,685 - INFO - Arquivo carregado: ITR_018465.xlsx
+2026-03-25 12:03:32,704 - INFO - Arquivo carregado: ITR_018627.xlsx
+2026-03-25 12:03:33,070 - INFO - Arquivo carregado: ITR_018660.xlsx
+2026-03-25 12:03:33,291 - INFO - Arquivo carregado: ITR_019348.xlsx
+2026-03-25 12:03:33,598 - INFO - Arquivo carregado: ITR_019445.xlsx
+2026-03-25 12:03:33,943 - INFO - Arquivo carregado: ITR_019992.xlsx
+2026-03-25 12:03:34,245 - INFO - Arquivo carregado: ITR_020257.xlsx
+2026-03-25 12:03:34,578 - INFO - Arquivo carregado: ITR_020362.xlsx
+2026-03-25 12:03:34,808 - INFO - Arquivo carregado: ITR_020532.xlsx
+2026-03-25 12:03:35,141 - INFO - Arquivo carregado: ITR_020575.xlsx
+2026-03-25 12:03:35,459 - INFO - Arquivo carregado: ITR_020605.xlsx
+2026-03-25 12:03:35,745 - INFO - Arquivo carregado: ITR_020770.xlsx
+2026-03-25 12:03:36,083 - INFO - Arquivo carregado: ITR_020788.xlsx
+2026-03-25 12:03:36,380 - INFO - Arquivo carregado: ITR_020915.xlsx
+2026-03-25 12:03:36,688 - INFO - Arquivo carregado: ITR_022470.xlsx
+2026-03-25 12:03:36,973 - INFO - Arquivo carregado: ITR_023159.xlsx
+2026-03-25 12:03:37,284 - INFO - Arquivo carregado: ITR_023795.xlsx
+2026-03-25 12:03:37,553 - INFO - Arquivo carregado: ITR_024180.xlsx
+2026-03-25 12:03:37,846 - INFO - Arquivo carregado: ITR_024295.xlsx
+2026-03-25 12:03:38,167 - INFO - Arquivo carregado: ITR_024910.xlsx
+2026-03-25 12:03:38,442 - INFO - Arquivo carregado: ITR_025585.xlsx
+2026-03-25 12:03:38,775 - INFO - Arquivo carregado: ITR_025917.xlsx
+2026-03-25 12:03:39,067 - INFO - Arquivo carregado: ITR_026620.xlsx
+2026-03-25 12:03:40,424 - INFO - JHSF3.SA processado com sucesso
+2026-03-25 12:04:42,730 - INFO - INÍCIO DO PIPELINE
+2026-03-25 12:04:51,566 - INFO - 020605 - BPA carregado (390, 15)
+2026-03-25 12:05:01,055 - INFO - 020605 - BPP carregado (750, 15)
+2026-03-25 12:05:10,242 - INFO - 020605 - DRE carregado (420, 16)
+2026-03-25 12:05:10,848 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_020605.xlsx
+2026-03-25 12:05:10,849 - INFO - Tempo total ITR: 28.119255542755127
+2026-03-25 12:05:13,249 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_020605.xlsx
+2026-03-25 12:05:13,750 - INFO - Tempo total DFP: 2.698263645172119
+2026-03-25 12:05:13,769 - INFO - Iniciando transformação e cálculo de indicadores
+2026-03-25 12:05:14,299 - INFO - Arquivo carregado: ITR_000906.xlsx
+2026-03-25 12:05:14,495 - INFO - Arquivo carregado: ITR_001023.xlsx
+2026-03-25 12:05:14,712 - INFO - Arquivo carregado: ITR_001210.xlsx
+2026-03-25 12:05:15,091 - INFO - Arquivo carregado: ITR_002437.xlsx
+2026-03-25 12:05:15,437 - INFO - Arquivo carregado: ITR_003980.xlsx
+2026-03-25 12:05:15,722 - INFO - Arquivo carregado: ITR_004170.xlsx
+2026-03-25 12:05:16,039 - INFO - Arquivo carregado: ITR_006505.xlsx
+2026-03-25 12:05:16,318 - INFO - Arquivo carregado: ITR_008133.xlsx
+2026-03-25 12:05:16,664 - INFO - Arquivo carregado: ITR_014443.xlsx
+2026-03-25 12:05:16,966 - INFO - Arquivo carregado: ITR_014460.xlsx
+2026-03-25 12:05:17,387 - INFO - Arquivo carregado: ITR_016292.xlsx
+2026-03-25 12:05:17,712 - INFO - Arquivo carregado: ITR_016659.xlsx
+2026-03-25 12:05:18,066 - INFO - Arquivo carregado: ITR_017329.xlsx
+2026-03-25 12:05:18,367 - INFO - Arquivo carregado: ITR_018465.xlsx
+2026-03-25 12:05:18,390 - INFO - Arquivo carregado: ITR_018627.xlsx
+2026-03-25 12:05:18,751 - INFO - Arquivo carregado: ITR_018660.xlsx
+2026-03-25 12:05:18,968 - INFO - Arquivo carregado: ITR_019348.xlsx
+2026-03-25 12:05:19,269 - INFO - Arquivo carregado: ITR_019445.xlsx
+2026-03-25 12:05:19,610 - INFO - Arquivo carregado: ITR_019992.xlsx
+2026-03-25 12:05:19,907 - INFO - Arquivo carregado: ITR_020257.xlsx
+2026-03-25 12:05:20,231 - INFO - Arquivo carregado: ITR_020362.xlsx
+2026-03-25 12:05:20,446 - INFO - Arquivo carregado: ITR_020532.xlsx
+2026-03-25 12:05:20,777 - INFO - Arquivo carregado: ITR_020575.xlsx
+2026-03-25 12:05:21,096 - INFO - Arquivo carregado: ITR_020605.xlsx
+2026-03-25 12:05:21,377 - INFO - Arquivo carregado: ITR_020770.xlsx
+2026-03-25 12:05:21,709 - INFO - Arquivo carregado: ITR_020788.xlsx
+2026-03-25 12:05:22,007 - INFO - Arquivo carregado: ITR_020915.xlsx
+2026-03-25 12:05:22,362 - INFO - Arquivo carregado: ITR_022470.xlsx
+2026-03-25 12:05:22,642 - INFO - Arquivo carregado: ITR_023159.xlsx
+2026-03-25 12:05:22,946 - INFO - Arquivo carregado: ITR_023795.xlsx
+2026-03-25 12:05:23,214 - INFO - Arquivo carregado: ITR_024180.xlsx
+2026-03-25 12:05:23,507 - INFO - Arquivo carregado: ITR_024295.xlsx
+2026-03-25 12:05:23,822 - INFO - Arquivo carregado: ITR_024910.xlsx
+2026-03-25 12:05:24,093 - INFO - Arquivo carregado: ITR_025585.xlsx
+2026-03-25 12:05:24,422 - INFO - Arquivo carregado: ITR_025917.xlsx
+2026-03-25 12:05:24,709 - INFO - Arquivo carregado: ITR_026620.xlsx
+2026-03-25 12:05:25,863 - INFO - JHSF3.SA processado com sucesso
+2026-03-25 12:05:25,904 - INFO - --- DEBUG JHSF3.SA ---
+2026-03-25 12:05:25,905 - INFO - Preço: 8.850000381469727
+2026-03-25 12:05:25,905 - INFO - PL: 6718185.0
+2026-03-25 12:05:25,905 - INFO - Ações: 668712156.0
+2026-03-25 12:05:25,906 - INFO - LPA: 0.0024651159474361342
+2026-03-25 12:05:25,906 - INFO - VPA: 0.010046452632453715
+2026-03-25 12:05:25,907 - INFO - P/L: 3590.094977347515
+2026-03-25 12:05:25,907 - INFO - P/VPA: 880.907988644767
+2026-03-25 12:05:25,944 - INFO - Resultado salvo em c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\processed\resultado_20260325_120525.xlsx
+2026-03-25 12:05:26,150 - INFO - Dados salvos no SQL Server com sucesso
+2026-03-25 12:05:26,152 - INFO - Pipeline finalizado
+2026-03-25 12:14:28,411 - INFO - INÍCIO DO PIPELINE
+2026-03-25 12:14:37,167 - INFO - 020605 - BPA carregado (390, 15)
+2026-03-25 12:14:46,734 - INFO - 020605 - BPP carregado (750, 15)
+2026-03-25 12:14:56,024 - INFO - 020605 - DRE carregado (420, 16)
+2026-03-25 12:14:56,712 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_020605.xlsx
+2026-03-25 12:14:56,713 - INFO - Tempo total ITR: 28.300639152526855
+2026-03-25 12:14:59,703 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_020605.xlsx
+2026-03-25 12:15:00,205 - INFO - Tempo total DFP: 3.298959970474243
+2026-03-25 12:15:00,224 - INFO - Iniciando transformação e cálculo de indicadores
+2026-03-25 12:15:00,761 - INFO - Arquivo carregado: ITR_000906.xlsx
+2026-03-25 12:15:00,967 - INFO - Arquivo carregado: ITR_001023.xlsx
+2026-03-25 12:15:01,195 - INFO - Arquivo carregado: ITR_001210.xlsx
+2026-03-25 12:15:01,587 - INFO - Arquivo carregado: ITR_002437.xlsx
+2026-03-25 12:15:01,944 - INFO - Arquivo carregado: ITR_003980.xlsx
+2026-03-25 12:15:02,268 - INFO - Arquivo carregado: ITR_004170.xlsx
+2026-03-25 12:15:02,584 - INFO - Arquivo carregado: ITR_006505.xlsx
+2026-03-25 12:15:02,863 - INFO - Arquivo carregado: ITR_008133.xlsx
+2026-03-25 12:15:03,214 - INFO - Arquivo carregado: ITR_014443.xlsx
+2026-03-25 12:15:03,512 - INFO - Arquivo carregado: ITR_014460.xlsx
+2026-03-25 12:15:03,871 - INFO - Arquivo carregado: ITR_016292.xlsx
+2026-03-25 12:15:04,190 - INFO - Arquivo carregado: ITR_016659.xlsx
+2026-03-25 12:15:04,540 - INFO - Arquivo carregado: ITR_017329.xlsx
+2026-03-25 12:15:04,841 - INFO - Arquivo carregado: ITR_018465.xlsx
+2026-03-25 12:15:04,862 - INFO - Arquivo carregado: ITR_018627.xlsx
+2026-03-25 12:15:05,300 - INFO - Arquivo carregado: ITR_018660.xlsx
+2026-03-25 12:15:05,667 - INFO - Arquivo carregado: ITR_019348.xlsx
+2026-03-25 12:15:06,008 - INFO - Arquivo carregado: ITR_019445.xlsx
+2026-03-25 12:15:06,363 - INFO - Arquivo carregado: ITR_019992.xlsx
+2026-03-25 12:15:06,671 - INFO - Arquivo carregado: ITR_020257.xlsx
+2026-03-25 12:15:07,009 - INFO - Arquivo carregado: ITR_020362.xlsx
+2026-03-25 12:15:07,236 - INFO - Arquivo carregado: ITR_020532.xlsx
+2026-03-25 12:15:07,575 - INFO - Arquivo carregado: ITR_020575.xlsx
+2026-03-25 12:15:07,934 - INFO - Arquivo carregado: ITR_020605.xlsx
+2026-03-25 12:15:08,223 - INFO - Arquivo carregado: ITR_020770.xlsx
+2026-03-25 12:15:08,556 - INFO - Arquivo carregado: ITR_020788.xlsx
+2026-03-25 12:15:08,863 - INFO - Arquivo carregado: ITR_020915.xlsx
+2026-03-25 12:15:09,188 - INFO - Arquivo carregado: ITR_022470.xlsx
+2026-03-25 12:15:09,489 - INFO - Arquivo carregado: ITR_023159.xlsx
+2026-03-25 12:15:09,812 - INFO - Arquivo carregado: ITR_023795.xlsx
+2026-03-25 12:15:10,103 - INFO - Arquivo carregado: ITR_024180.xlsx
+2026-03-25 12:15:10,419 - INFO - Arquivo carregado: ITR_024295.xlsx
+2026-03-25 12:15:10,752 - INFO - Arquivo carregado: ITR_024910.xlsx
+2026-03-25 12:15:11,039 - INFO - Arquivo carregado: ITR_025585.xlsx
+2026-03-25 12:15:11,377 - INFO - Arquivo carregado: ITR_025917.xlsx
+2026-03-25 12:15:11,662 - INFO - Arquivo carregado: ITR_026620.xlsx
+2026-03-25 12:15:12,930 - INFO - JHSF3.SA processado com sucesso
+2026-03-25 12:15:12,943 - INFO - --- DEBUG JHSF3.SA ---
+2026-03-25 12:15:12,943 - INFO - Preço: 8.84000015258789
+2026-03-25 12:15:12,943 - INFO - PL: 6718185.0
+2026-03-25 12:15:12,944 - INFO - Ações: 668712156.0
+2026-03-25 12:15:12,944 - INFO - LPA: 0.0024651159474361342
+2026-03-25 12:15:12,944 - INFO - VPA: 0.010046452632453715
+2026-03-25 12:15:12,945 - INFO - P/L: 3586.0382801798883
+2026-03-25 12:15:12,945 - INFO - P/VPA: 879.9125896469624
+2026-03-25 12:15:12,982 - INFO - Resultado salvo em c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\processed\resultado_20260325_121512.xlsx
+2026-03-25 12:15:13,187 - INFO - Dados salvos no SQL Server com sucesso
+2026-03-25 12:15:13,190 - INFO - Pipeline finalizado
+2026-03-25 13:47:08,863 - INFO - INÍCIO DO PIPELINE
+2026-03-25 13:47:17,096 - INFO - 020605 - BPA carregado (390, 15)
+2026-03-25 13:47:25,787 - INFO - 020605 - BPP carregado (750, 15)
+2026-03-25 13:47:33,337 - INFO - 020605 - DRE carregado (420, 16)
+2026-03-25 13:47:34,394 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_020605.xlsx
+2026-03-25 13:47:34,395 - INFO - Tempo total ITR: 25.530750036239624
+2026-03-25 13:47:36,414 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_020605.xlsx
+2026-03-25 13:47:36,915 - INFO - Tempo total DFP: 2.3288094997406006
+2026-03-25 13:47:36,934 - INFO - Iniciando transformação e cálculo de indicadores
+2026-03-25 13:47:39,121 - INFO - Arquivo carregado: ITR_000906.xlsx
+2026-03-25 13:47:39,340 - INFO - Arquivo carregado: ITR_001023.xlsx
+2026-03-25 13:47:39,579 - INFO - Arquivo carregado: ITR_001210.xlsx
+2026-03-25 13:47:39,990 - INFO - Arquivo carregado: ITR_002437.xlsx
+2026-03-25 13:47:40,380 - INFO - Arquivo carregado: ITR_003980.xlsx
+2026-03-25 13:47:40,707 - INFO - Arquivo carregado: ITR_004170.xlsx
+2026-03-25 13:47:41,074 - INFO - Arquivo carregado: ITR_006505.xlsx
+2026-03-25 13:47:41,380 - INFO - Arquivo carregado: ITR_008133.xlsx
+2026-03-25 13:47:41,759 - INFO - Arquivo carregado: ITR_014443.xlsx
+2026-03-25 13:47:42,090 - INFO - Arquivo carregado: ITR_014460.xlsx
+2026-03-25 13:47:42,485 - INFO - Arquivo carregado: ITR_016292.xlsx
+2026-03-25 13:47:42,834 - INFO - Arquivo carregado: ITR_016659.xlsx
+2026-03-25 13:47:43,220 - INFO - Arquivo carregado: ITR_017329.xlsx
+2026-03-25 13:47:43,555 - INFO - Arquivo carregado: ITR_018465.xlsx
+2026-03-25 13:47:43,586 - INFO - Arquivo carregado: ITR_018627.xlsx
+2026-03-25 13:47:43,980 - INFO - Arquivo carregado: ITR_018660.xlsx
+2026-03-25 13:47:44,229 - INFO - Arquivo carregado: ITR_019348.xlsx
+2026-03-25 13:47:44,561 - INFO - Arquivo carregado: ITR_019445.xlsx
+2026-03-25 13:47:44,929 - INFO - Arquivo carregado: ITR_019992.xlsx
+2026-03-25 13:47:45,254 - INFO - Arquivo carregado: ITR_020257.xlsx
+2026-03-25 13:47:45,604 - INFO - Arquivo carregado: ITR_020362.xlsx
+2026-03-25 13:47:45,838 - INFO - Arquivo carregado: ITR_020532.xlsx
+2026-03-25 13:47:46,192 - INFO - Arquivo carregado: ITR_020575.xlsx
+2026-03-25 13:47:46,521 - INFO - Arquivo carregado: ITR_020605.xlsx
+2026-03-25 13:47:46,826 - INFO - Arquivo carregado: ITR_020770.xlsx
+2026-03-25 13:47:47,187 - INFO - Arquivo carregado: ITR_020788.xlsx
+2026-03-25 13:47:47,508 - INFO - Arquivo carregado: ITR_020915.xlsx
+2026-03-25 13:47:47,835 - INFO - Arquivo carregado: ITR_022470.xlsx
+2026-03-25 13:47:48,137 - INFO - Arquivo carregado: ITR_023159.xlsx
+2026-03-25 13:47:48,466 - INFO - Arquivo carregado: ITR_023795.xlsx
+2026-03-25 13:47:48,753 - INFO - Arquivo carregado: ITR_024180.xlsx
+2026-03-25 13:47:49,068 - INFO - Arquivo carregado: ITR_024295.xlsx
+2026-03-25 13:47:49,407 - INFO - Arquivo carregado: ITR_024910.xlsx
+2026-03-25 13:47:49,729 - INFO - Arquivo carregado: ITR_025585.xlsx
+2026-03-25 13:47:50,102 - INFO - Arquivo carregado: ITR_025917.xlsx
+2026-03-25 13:47:50,433 - INFO - Arquivo carregado: ITR_026620.xlsx
+2026-03-25 13:47:55,019 - INFO - JHSF3.SA processado com sucesso
+2026-03-25 13:47:55,060 - INFO - --- DEBUG JHSF3.SA ---
+2026-03-25 13:47:55,060 - INFO - Preço: 8.880000114440918
+2026-03-25 13:47:55,061 - INFO - PL: 6718185.0
+2026-03-25 13:47:55,062 - INFO - Ações: 668712156.0
+2026-03-25 13:47:55,063 - INFO - LPA: 0.0024651159474361342
+2026-03-25 13:47:55,063 - INFO - VPA: 0.010046452632453715
+2026-03-25 13:47:55,064 - INFO - P/L: 3602.2646819824604
+2026-03-25 13:47:55,064 - INFO - P/VPA: 883.8940907117076
+2026-03-25 13:47:55,125 - INFO - Resultado salvo em c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\processed\resultado_20260325_134755.xlsx
+2026-03-25 13:47:55,616 - INFO - Dados salvos no SQL Server com sucesso
+2026-03-25 13:47:55,618 - INFO - Pipeline finalizado
+2026-03-25 13:52:27,428 - INFO - INÍCIO DO PIPELINE
+2026-03-25 13:52:37,432 - INFO - 020605 - BPA carregado (390, 15)
+2026-03-25 13:52:46,411 - INFO - 020605 - BPP carregado (750, 15)
+2026-03-25 13:52:54,169 - INFO - 020605 - DRE carregado (420, 16)
+2026-03-25 13:52:54,808 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_020605.xlsx
+2026-03-25 13:52:54,809 - INFO - Tempo total ITR: 27.38102912902832
+2026-03-25 13:52:56,789 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_020605.xlsx
+2026-03-25 13:52:57,290 - INFO - Tempo total DFP: 2.2854392528533936
+2026-03-25 13:52:57,312 - INFO - Iniciando transformação e cálculo de indicadores
+2026-03-25 13:52:57,905 - INFO - Arquivo carregado: ITR_000906.xlsx
+2026-03-25 13:52:58,107 - INFO - Arquivo carregado: ITR_001023.xlsx
+2026-03-25 13:52:58,326 - INFO - Arquivo carregado: ITR_001210.xlsx
+2026-03-25 13:52:58,723 - INFO - Arquivo carregado: ITR_002437.xlsx
+2026-03-25 13:52:59,080 - INFO - Arquivo carregado: ITR_003980.xlsx
+2026-03-25 13:52:59,362 - INFO - Arquivo carregado: ITR_004170.xlsx
+2026-03-25 13:52:59,688 - INFO - Arquivo carregado: ITR_006505.xlsx
+2026-03-25 13:52:59,967 - INFO - Arquivo carregado: ITR_008133.xlsx
+2026-03-25 13:53:00,324 - INFO - Arquivo carregado: ITR_014443.xlsx
+2026-03-25 13:53:00,631 - INFO - Arquivo carregado: ITR_014460.xlsx
+2026-03-25 13:53:01,017 - INFO - Arquivo carregado: ITR_016292.xlsx
+2026-03-25 13:53:01,381 - INFO - Arquivo carregado: ITR_016659.xlsx
+2026-03-25 13:53:01,754 - INFO - Arquivo carregado: ITR_017329.xlsx
+2026-03-25 13:53:02,073 - INFO - Arquivo carregado: ITR_018465.xlsx
+2026-03-25 13:53:02,096 - INFO - Arquivo carregado: ITR_018627.xlsx
+2026-03-25 13:53:02,455 - INFO - Arquivo carregado: ITR_018660.xlsx
+2026-03-25 13:53:02,674 - INFO - Arquivo carregado: ITR_019348.xlsx
+2026-03-25 13:53:02,975 - INFO - Arquivo carregado: ITR_019445.xlsx
+2026-03-25 13:53:03,335 - INFO - Arquivo carregado: ITR_019992.xlsx
+2026-03-25 13:53:03,633 - INFO - Arquivo carregado: ITR_020257.xlsx
+2026-03-25 13:53:03,955 - INFO - Arquivo carregado: ITR_020362.xlsx
+2026-03-25 13:53:04,176 - INFO - Arquivo carregado: ITR_020532.xlsx
+2026-03-25 13:53:04,552 - INFO - Arquivo carregado: ITR_020575.xlsx
+2026-03-25 13:53:04,869 - INFO - Arquivo carregado: ITR_020605.xlsx
+2026-03-25 13:53:05,152 - INFO - Arquivo carregado: ITR_020770.xlsx
+2026-03-25 13:53:05,487 - INFO - Arquivo carregado: ITR_020788.xlsx
+2026-03-25 13:53:05,779 - INFO - Arquivo carregado: ITR_020915.xlsx
+2026-03-25 13:53:06,085 - INFO - Arquivo carregado: ITR_022470.xlsx
+2026-03-25 13:53:06,364 - INFO - Arquivo carregado: ITR_023159.xlsx
+2026-03-25 13:53:06,672 - INFO - Arquivo carregado: ITR_023795.xlsx
+2026-03-25 13:53:06,933 - INFO - Arquivo carregado: ITR_024180.xlsx
+2026-03-25 13:53:07,222 - INFO - Arquivo carregado: ITR_024295.xlsx
+2026-03-25 13:53:07,540 - INFO - Arquivo carregado: ITR_024910.xlsx
+2026-03-25 13:53:07,810 - INFO - Arquivo carregado: ITR_025585.xlsx
+2026-03-25 13:53:08,139 - INFO - Arquivo carregado: ITR_025917.xlsx
+2026-03-25 13:53:08,423 - INFO - Arquivo carregado: ITR_026620.xlsx
+2026-03-25 13:53:09,946 - INFO - JHSF3.SA processado com sucesso
+2026-03-25 13:53:09,955 - INFO - 
+===== VALIDAÇÃO COMPLETA JHSF3.SA =====
+2026-03-25 13:53:09,956 - INFO - Preço: 8.869999885559082
+2026-03-25 13:55:30,380 - INFO - INÍCIO DO PIPELINE
+2026-03-25 13:55:38,554 - INFO - 020605 - BPA carregado (390, 15)
+2026-03-25 13:55:47,389 - INFO - 020605 - BPP carregado (750, 15)
+2026-03-25 13:55:55,122 - INFO - 020605 - DRE carregado (420, 16)
+2026-03-25 13:55:55,734 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_020605.xlsx
+2026-03-25 13:55:55,734 - INFO - Tempo total ITR: 25.35246253013611
+2026-03-25 13:55:57,960 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_020605.xlsx
+2026-03-25 13:55:58,461 - INFO - Tempo total DFP: 2.5222408771514893
+2026-03-25 13:55:58,481 - INFO - Iniciando transformação e cálculo de indicadores
+2026-03-25 13:55:59,079 - INFO - Arquivo carregado: ITR_000906.xlsx
+2026-03-25 13:55:59,280 - INFO - Arquivo carregado: ITR_001023.xlsx
+2026-03-25 13:55:59,501 - INFO - Arquivo carregado: ITR_001210.xlsx
+2026-03-25 13:55:59,886 - INFO - Arquivo carregado: ITR_002437.xlsx
+2026-03-25 13:56:00,242 - INFO - Arquivo carregado: ITR_003980.xlsx
+2026-03-25 13:56:00,532 - INFO - Arquivo carregado: ITR_004170.xlsx
+2026-03-25 13:56:00,850 - INFO - Arquivo carregado: ITR_006505.xlsx
+2026-03-25 13:56:01,133 - INFO - Arquivo carregado: ITR_008133.xlsx
+2026-03-25 13:56:01,486 - INFO - Arquivo carregado: ITR_014443.xlsx
+2026-03-25 13:56:01,790 - INFO - Arquivo carregado: ITR_014460.xlsx
+2026-03-25 13:56:02,193 - INFO - Arquivo carregado: ITR_016292.xlsx
+2026-03-25 13:56:02,539 - INFO - Arquivo carregado: ITR_016659.xlsx
+2026-03-25 13:56:02,898 - INFO - Arquivo carregado: ITR_017329.xlsx
+2026-03-25 13:56:03,203 - INFO - Arquivo carregado: ITR_018465.xlsx
+2026-03-25 13:56:03,224 - INFO - Arquivo carregado: ITR_018627.xlsx
+2026-03-25 13:56:03,604 - INFO - Arquivo carregado: ITR_018660.xlsx
+2026-03-25 13:56:03,823 - INFO - Arquivo carregado: ITR_019348.xlsx
+2026-03-25 13:56:04,131 - INFO - Arquivo carregado: ITR_019445.xlsx
+2026-03-25 13:56:04,479 - INFO - Arquivo carregado: ITR_019992.xlsx
+2026-03-25 13:56:04,781 - INFO - Arquivo carregado: ITR_020257.xlsx
+2026-03-25 13:56:05,110 - INFO - Arquivo carregado: ITR_020362.xlsx
+2026-03-25 13:56:05,325 - INFO - Arquivo carregado: ITR_020532.xlsx
+2026-03-25 13:56:05,657 - INFO - Arquivo carregado: ITR_020575.xlsx
+2026-03-25 13:56:05,979 - INFO - Arquivo carregado: ITR_020605.xlsx
+2026-03-25 13:56:06,263 - INFO - Arquivo carregado: ITR_020770.xlsx
+2026-03-25 13:56:06,602 - INFO - Arquivo carregado: ITR_020788.xlsx
+2026-03-25 13:56:06,954 - INFO - Arquivo carregado: ITR_020915.xlsx
+2026-03-25 13:56:07,263 - INFO - Arquivo carregado: ITR_022470.xlsx
+2026-03-25 13:56:07,547 - INFO - Arquivo carregado: ITR_023159.xlsx
+2026-03-25 13:56:07,856 - INFO - Arquivo carregado: ITR_023795.xlsx
+2026-03-25 13:56:08,124 - INFO - Arquivo carregado: ITR_024180.xlsx
+2026-03-25 13:56:08,420 - INFO - Arquivo carregado: ITR_024295.xlsx
+2026-03-25 13:56:08,794 - INFO - Arquivo carregado: ITR_024910.xlsx
+2026-03-25 13:56:09,071 - INFO - Arquivo carregado: ITR_025585.xlsx
+2026-03-25 13:56:09,408 - INFO - Arquivo carregado: ITR_025917.xlsx
+2026-03-25 13:56:09,696 - INFO - Arquivo carregado: ITR_026620.xlsx
+2026-03-25 13:56:11,480 - INFO - JHSF3.SA processado com sucesso
+2026-03-25 13:56:11,492 - INFO - --- DEBUG JHSF3.SA ---
+2026-03-25 13:56:11,492 - INFO - Preço: 8.890000343322754
+2026-03-25 13:56:11,493 - INFO - PL: 6718185.0
+2026-03-25 13:56:11,493 - INFO - Ações: 668712156.0
+2026-03-25 13:56:11,493 - INFO - LPA: 0.0024651159474361342
+2026-03-25 13:56:11,494 - INFO - VPA: 0.010046452632453715
+2026-03-25 13:56:11,494 - INFO - P/L: 3606.3213791500875
+2026-03-25 13:56:11,494 - INFO - P/VPA: 884.8894897095122
+2026-03-25 13:56:11,563 - INFO - Resultado salvo em c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\processed\resultado_20260325_135611.xlsx
+2026-03-25 13:56:11,759 - INFO - Dados salvos no SQL Server com sucesso
+2026-03-25 13:56:11,761 - INFO - Pipeline finalizado
+2026-03-25 14:03:23,646 - INFO - INÍCIO DO PIPELINE
+2026-03-25 14:03:34,202 - INFO - 020605 - BPA carregado (390, 15)
+2026-03-25 14:03:46,755 - INFO - 020605 - BPP carregado (750, 15)
+2026-03-25 14:03:55,832 - INFO - 020605 - DRE carregado (420, 16)
+2026-03-25 14:03:56,459 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_020605.xlsx
+2026-03-25 14:03:56,460 - INFO - Tempo total ITR: 32.81440877914429
+2026-03-25 14:03:58,476 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_020605.xlsx
+2026-03-25 14:03:58,978 - INFO - Tempo total DFP: 2.329556465148926
+2026-03-25 14:03:58,995 - INFO - Iniciando transformação e cálculo de indicadores
+2026-03-25 14:03:59,534 - INFO - Arquivo carregado: ITR_000906.xlsx
+2026-03-25 14:03:59,736 - INFO - Arquivo carregado: ITR_001023.xlsx
+2026-03-25 14:03:59,965 - INFO - Arquivo carregado: ITR_001210.xlsx
+2026-03-25 14:04:00,368 - INFO - Arquivo carregado: ITR_002437.xlsx
+2026-03-25 14:04:00,730 - INFO - Arquivo carregado: ITR_003980.xlsx
+2026-03-25 14:04:01,024 - INFO - Arquivo carregado: ITR_004170.xlsx
+2026-03-25 14:04:01,358 - INFO - Arquivo carregado: ITR_006505.xlsx
+2026-03-25 14:04:01,647 - INFO - Arquivo carregado: ITR_008133.xlsx
+2026-03-25 14:04:02,015 - INFO - Arquivo carregado: ITR_014443.xlsx
+2026-03-25 14:04:02,323 - INFO - Arquivo carregado: ITR_014460.xlsx
+2026-03-25 14:04:02,679 - INFO - Arquivo carregado: ITR_016292.xlsx
+2026-03-25 14:04:03,007 - INFO - Arquivo carregado: ITR_016659.xlsx
+2026-03-25 14:04:03,376 - INFO - Arquivo carregado: ITR_017329.xlsx
+2026-03-25 14:04:03,682 - INFO - Arquivo carregado: ITR_018465.xlsx
+2026-03-25 14:04:03,707 - INFO - Arquivo carregado: ITR_018627.xlsx
+2026-03-25 14:04:04,066 - INFO - Arquivo carregado: ITR_018660.xlsx
+2026-03-25 14:04:04,289 - INFO - Arquivo carregado: ITR_019348.xlsx
+2026-03-25 14:04:04,593 - INFO - Arquivo carregado: ITR_019445.xlsx
+2026-03-25 14:04:05,003 - INFO - Arquivo carregado: ITR_019992.xlsx
+2026-03-25 14:04:05,488 - INFO - Arquivo carregado: ITR_020257.xlsx
+2026-03-25 14:04:05,817 - INFO - Arquivo carregado: ITR_020362.xlsx
+2026-03-25 14:04:06,032 - INFO - Arquivo carregado: ITR_020532.xlsx
+2026-03-25 14:04:06,362 - INFO - Arquivo carregado: ITR_020575.xlsx
+2026-03-25 14:04:06,685 - INFO - Arquivo carregado: ITR_020605.xlsx
+2026-03-25 14:04:06,975 - INFO - Arquivo carregado: ITR_020770.xlsx
+2026-03-25 14:04:07,314 - INFO - Arquivo carregado: ITR_020788.xlsx
+2026-03-25 14:04:07,617 - INFO - Arquivo carregado: ITR_020915.xlsx
+2026-03-25 14:04:07,933 - INFO - Arquivo carregado: ITR_022470.xlsx
+2026-03-25 14:04:08,237 - INFO - Arquivo carregado: ITR_023159.xlsx
+2026-03-25 14:04:08,621 - INFO - Arquivo carregado: ITR_023795.xlsx
+2026-03-25 14:04:08,918 - INFO - Arquivo carregado: ITR_024180.xlsx
+2026-03-25 14:04:09,251 - INFO - Arquivo carregado: ITR_024295.xlsx
+2026-03-25 14:04:09,583 - INFO - Arquivo carregado: ITR_024910.xlsx
+2026-03-25 14:04:09,862 - INFO - Arquivo carregado: ITR_025585.xlsx
+2026-03-25 14:04:10,206 - INFO - Arquivo carregado: ITR_025917.xlsx
+2026-03-25 14:04:10,502 - INFO - Arquivo carregado: ITR_026620.xlsx
+2026-03-25 14:11:55,239 - INFO - INÍCIO DO PIPELINE
+2026-03-25 14:12:04,829 - INFO - 020605 - BPA carregado (390, 15)
+2026-03-25 14:12:15,176 - INFO - 020605 - BPP carregado (750, 15)
+2026-03-25 14:12:24,843 - INFO - 020605 - DRE carregado (420, 16)
+2026-03-25 14:12:25,500 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_020605.xlsx
+2026-03-25 14:12:25,501 - INFO - Tempo total ITR: 30.26193618774414
+2026-03-25 14:12:27,954 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_020605.xlsx
+2026-03-25 14:12:28,456 - INFO - Tempo total DFP: 2.7577884197235107
+2026-03-25 14:12:28,476 - INFO - Iniciando transformação e cálculo de indicadores
+2026-03-25 14:12:29,020 - INFO - Arquivo carregado: ITR_000906.xlsx
+2026-03-25 14:12:29,213 - INFO - Arquivo carregado: ITR_001023.xlsx
+2026-03-25 14:12:29,431 - INFO - Arquivo carregado: ITR_001210.xlsx
+2026-03-25 14:12:29,810 - INFO - Arquivo carregado: ITR_002437.xlsx
+2026-03-25 14:12:30,156 - INFO - Arquivo carregado: ITR_003980.xlsx
+2026-03-25 14:12:30,444 - INFO - Arquivo carregado: ITR_004170.xlsx
+2026-03-25 14:12:30,758 - INFO - Arquivo carregado: ITR_006505.xlsx
+2026-03-25 14:12:31,039 - INFO - Arquivo carregado: ITR_008133.xlsx
+2026-03-25 14:12:31,391 - INFO - Arquivo carregado: ITR_014443.xlsx
+2026-03-25 14:12:31,690 - INFO - Arquivo carregado: ITR_014460.xlsx
+2026-03-25 14:12:32,098 - INFO - Arquivo carregado: ITR_016292.xlsx
+2026-03-25 14:12:32,423 - INFO - Arquivo carregado: ITR_016659.xlsx
+2026-03-25 14:12:32,776 - INFO - Arquivo carregado: ITR_017329.xlsx
+2026-03-25 14:12:33,078 - INFO - Arquivo carregado: ITR_018465.xlsx
+2026-03-25 14:12:33,098 - INFO - Arquivo carregado: ITR_018627.xlsx
+2026-03-25 14:12:33,460 - INFO - Arquivo carregado: ITR_018660.xlsx
+2026-03-25 14:12:33,679 - INFO - Arquivo carregado: ITR_019348.xlsx
+2026-03-25 14:12:33,980 - INFO - Arquivo carregado: ITR_019445.xlsx
+2026-03-25 14:12:34,336 - INFO - Arquivo carregado: ITR_019992.xlsx
+2026-03-25 14:12:34,637 - INFO - Arquivo carregado: ITR_020257.xlsx
+2026-03-25 14:12:34,961 - INFO - Arquivo carregado: ITR_020362.xlsx
+2026-03-25 14:12:35,176 - INFO - Arquivo carregado: ITR_020532.xlsx
+2026-03-25 14:12:35,504 - INFO - Arquivo carregado: ITR_020575.xlsx
+2026-03-25 14:12:35,820 - INFO - Arquivo carregado: ITR_020605.xlsx
+2026-03-25 14:12:36,101 - INFO - Arquivo carregado: ITR_020770.xlsx
+2026-03-25 14:12:36,433 - INFO - Arquivo carregado: ITR_020788.xlsx
+2026-03-25 14:12:36,731 - INFO - Arquivo carregado: ITR_020915.xlsx
+2026-03-25 14:12:37,037 - INFO - Arquivo carregado: ITR_022470.xlsx
+2026-03-25 14:12:37,318 - INFO - Arquivo carregado: ITR_023159.xlsx
+2026-03-25 14:12:37,622 - INFO - Arquivo carregado: ITR_023795.xlsx
+2026-03-25 14:12:37,886 - INFO - Arquivo carregado: ITR_024180.xlsx
+2026-03-25 14:12:38,176 - INFO - Arquivo carregado: ITR_024295.xlsx
+2026-03-25 14:12:38,493 - INFO - Arquivo carregado: ITR_024910.xlsx
+2026-03-25 14:12:38,766 - INFO - Arquivo carregado: ITR_025585.xlsx
+2026-03-25 14:12:39,094 - INFO - Arquivo carregado: ITR_025917.xlsx
+2026-03-25 14:12:39,382 - INFO - Arquivo carregado: ITR_026620.xlsx
+2026-03-25 14:19:23,786 - INFO - INÍCIO DO PIPELINE
+2026-03-25 14:19:32,294 - INFO - 020605 - BPA carregado (390, 15)
+2026-03-25 14:19:41,349 - INFO - 020605 - BPP carregado (750, 15)
+2026-03-25 14:19:49,670 - INFO - 020605 - DRE carregado (420, 16)
+2026-03-25 14:19:50,280 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_020605.xlsx
+2026-03-25 14:19:50,281 - INFO - Tempo total ITR: 26.493708848953247
+2026-03-25 14:19:52,595 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_020605.xlsx
+2026-03-25 14:19:53,096 - INFO - Tempo total DFP: 2.628539800643921
+2026-03-25 14:19:53,115 - INFO - Iniciando transformação e cálculo de indicadores
+2026-03-25 14:19:53,660 - INFO - Arquivo carregado: ITR_000906.xlsx
+2026-03-25 14:19:53,867 - INFO - Arquivo carregado: ITR_001023.xlsx
+2026-03-25 14:19:54,125 - INFO - Arquivo carregado: ITR_001210.xlsx
+2026-03-25 14:19:54,551 - INFO - Arquivo carregado: ITR_002437.xlsx
+2026-03-25 14:19:54,919 - INFO - Arquivo carregado: ITR_003980.xlsx
+2026-03-25 14:19:55,218 - INFO - Arquivo carregado: ITR_004170.xlsx
+2026-03-25 14:19:55,549 - INFO - Arquivo carregado: ITR_006505.xlsx
+2026-03-25 14:19:55,842 - INFO - Arquivo carregado: ITR_008133.xlsx
+2026-03-25 14:19:56,282 - INFO - Arquivo carregado: ITR_014443.xlsx
+2026-03-25 14:19:56,690 - INFO - Arquivo carregado: ITR_014460.xlsx
+2026-03-25 14:19:57,093 - INFO - Arquivo carregado: ITR_016292.xlsx
+2026-03-25 14:19:57,433 - INFO - Arquivo carregado: ITR_016659.xlsx
+2026-03-25 14:19:57,800 - INFO - Arquivo carregado: ITR_017329.xlsx
+2026-03-25 14:19:58,224 - INFO - Arquivo carregado: ITR_018465.xlsx
+2026-03-25 14:19:58,247 - INFO - Arquivo carregado: ITR_018627.xlsx
+2026-03-25 14:19:58,627 - INFO - Arquivo carregado: ITR_018660.xlsx
+2026-03-25 14:19:58,857 - INFO - Arquivo carregado: ITR_019348.xlsx
+2026-03-25 14:19:59,173 - INFO - Arquivo carregado: ITR_019445.xlsx
+2026-03-25 14:19:59,731 - INFO - Arquivo carregado: ITR_019992.xlsx
+2026-03-25 14:20:00,085 - INFO - Arquivo carregado: ITR_020257.xlsx
+2026-03-25 14:20:00,490 - INFO - Arquivo carregado: ITR_020362.xlsx
+2026-03-25 14:20:00,730 - INFO - Arquivo carregado: ITR_020532.xlsx
+2026-03-25 14:20:01,071 - INFO - Arquivo carregado: ITR_020575.xlsx
+2026-03-25 14:20:01,445 - INFO - Arquivo carregado: ITR_020605.xlsx
+2026-03-25 14:20:01,782 - INFO - Arquivo carregado: ITR_020770.xlsx
+2026-03-25 14:20:02,133 - INFO - Arquivo carregado: ITR_020788.xlsx
+2026-03-25 14:20:02,452 - INFO - Arquivo carregado: ITR_020915.xlsx
+2026-03-25 14:20:02,792 - INFO - Arquivo carregado: ITR_022470.xlsx
+2026-03-25 14:20:03,103 - INFO - Arquivo carregado: ITR_023159.xlsx
+2026-03-25 14:20:03,442 - INFO - Arquivo carregado: ITR_023795.xlsx
+2026-03-25 14:20:03,781 - INFO - Arquivo carregado: ITR_024180.xlsx
+2026-03-25 14:20:04,083 - INFO - Arquivo carregado: ITR_024295.xlsx
+2026-03-25 14:20:04,409 - INFO - Arquivo carregado: ITR_024910.xlsx
+2026-03-25 14:20:04,685 - INFO - Arquivo carregado: ITR_025585.xlsx
+2026-03-25 14:20:05,052 - INFO - Arquivo carregado: ITR_025917.xlsx
+2026-03-25 14:20:05,438 - INFO - Arquivo carregado: ITR_026620.xlsx
+2026-03-25 14:20:06,712 - INFO - JHSF3.SA processado com sucesso
+2026-03-25 14:30:24,268 - INFO - INÍCIO DO PIPELINE
+2026-03-25 14:30:33,336 - INFO - 020605 - BPA carregado (390, 15)
+2026-03-25 14:30:43,209 - INFO - 020605 - BPP carregado (750, 15)
+2026-03-25 14:30:52,756 - INFO - 020605 - DRE carregado (420, 16)
+2026-03-25 14:30:53,360 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_020605.xlsx
+2026-03-25 14:30:53,361 - INFO - Tempo total ITR: 29.09233021736145
+2026-03-25 14:30:56,429 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_020605.xlsx
+2026-03-25 14:30:56,931 - INFO - Tempo total DFP: 3.375924587249756
+2026-03-25 14:30:56,951 - INFO - Iniciando transformação e cálculo de indicadores
+2026-03-25 14:30:57,485 - INFO - Arquivo carregado: ITR_000906.xlsx
+2026-03-25 14:30:57,679 - INFO - Arquivo carregado: ITR_001023.xlsx
+2026-03-25 14:30:57,912 - INFO - Arquivo carregado: ITR_001210.xlsx
+2026-03-25 14:30:58,291 - INFO - Arquivo carregado: ITR_002437.xlsx
+2026-03-25 14:30:58,638 - INFO - Arquivo carregado: ITR_003980.xlsx
+2026-03-25 14:30:58,925 - INFO - Arquivo carregado: ITR_004170.xlsx
+2026-03-25 14:30:59,247 - INFO - Arquivo carregado: ITR_006505.xlsx
+2026-03-25 14:30:59,524 - INFO - Arquivo carregado: ITR_008133.xlsx
+2026-03-25 14:30:59,873 - INFO - Arquivo carregado: ITR_014443.xlsx
+2026-03-25 14:31:00,174 - INFO - Arquivo carregado: ITR_014460.xlsx
+2026-03-25 14:31:00,533 - INFO - Arquivo carregado: ITR_016292.xlsx
+2026-03-25 14:31:00,855 - INFO - Arquivo carregado: ITR_016659.xlsx
+2026-03-25 14:31:01,207 - INFO - Arquivo carregado: ITR_017329.xlsx
+2026-03-25 14:31:01,508 - INFO - Arquivo carregado: ITR_018465.xlsx
+2026-03-25 14:31:01,528 - INFO - Arquivo carregado: ITR_018627.xlsx
+2026-03-25 14:31:01,886 - INFO - Arquivo carregado: ITR_018660.xlsx
+2026-03-25 14:31:02,105 - INFO - Arquivo carregado: ITR_019348.xlsx
+2026-03-25 14:31:02,406 - INFO - Arquivo carregado: ITR_019445.xlsx
+2026-03-25 14:31:02,757 - INFO - Arquivo carregado: ITR_019992.xlsx
+2026-03-25 14:31:03,062 - INFO - Arquivo carregado: ITR_020257.xlsx
+2026-03-25 14:31:03,394 - INFO - Arquivo carregado: ITR_020362.xlsx
+2026-03-25 14:31:03,615 - INFO - Arquivo carregado: ITR_020532.xlsx
+2026-03-25 14:31:03,945 - INFO - Arquivo carregado: ITR_020575.xlsx
+2026-03-25 14:31:04,268 - INFO - Arquivo carregado: ITR_020605.xlsx
+2026-03-25 14:31:04,549 - INFO - Arquivo carregado: ITR_020770.xlsx
+2026-03-25 14:31:04,887 - INFO - Arquivo carregado: ITR_020788.xlsx
+2026-03-25 14:31:05,184 - INFO - Arquivo carregado: ITR_020915.xlsx
+2026-03-25 14:31:05,496 - INFO - Arquivo carregado: ITR_022470.xlsx
+2026-03-25 14:31:05,778 - INFO - Arquivo carregado: ITR_023159.xlsx
+2026-03-25 14:31:06,090 - INFO - Arquivo carregado: ITR_023795.xlsx
+2026-03-25 14:31:06,362 - INFO - Arquivo carregado: ITR_024180.xlsx
+2026-03-25 14:31:06,656 - INFO - Arquivo carregado: ITR_024295.xlsx
+2026-03-25 14:31:06,975 - INFO - Arquivo carregado: ITR_024910.xlsx
+2026-03-25 14:31:07,247 - INFO - Arquivo carregado: ITR_025585.xlsx
+2026-03-25 14:31:07,578 - INFO - Arquivo carregado: ITR_025917.xlsx
+2026-03-25 14:31:07,866 - INFO - Arquivo carregado: ITR_026620.xlsx
+2026-03-25 14:31:09,442 - INFO - JHSF3.SA processado com sucesso
+2026-03-25 14:39:27,474 - INFO - INÍCIO DO PIPELINE
+2026-03-25 14:39:36,545 - INFO - 020605 - BPA carregado (390, 15)
+2026-03-25 14:39:46,090 - INFO - 020605 - BPP carregado (750, 15)
+2026-03-25 14:39:54,701 - INFO - 020605 - DRE carregado (420, 16)
+2026-03-25 14:39:55,311 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_020605.xlsx
+2026-03-25 14:39:55,312 - INFO - Tempo total ITR: 27.838151216506958
+2026-03-25 14:39:57,661 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_020605.xlsx
+2026-03-25 14:39:58,162 - INFO - Tempo total DFP: 2.6596462726593018
+2026-03-25 14:39:58,181 - INFO - Iniciando transformação e cálculo de indicadores
+2026-03-25 14:39:58,719 - INFO - Arquivo carregado: ITR_000906.xlsx
+2026-03-25 14:39:58,911 - INFO - Arquivo carregado: ITR_001023.xlsx
+2026-03-25 14:39:59,131 - INFO - Arquivo carregado: ITR_001210.xlsx
+2026-03-25 14:39:59,526 - INFO - Arquivo carregado: ITR_002437.xlsx
+2026-03-25 14:39:59,876 - INFO - Arquivo carregado: ITR_003980.xlsx
+2026-03-25 14:40:00,166 - INFO - Arquivo carregado: ITR_004170.xlsx
+2026-03-25 14:40:00,487 - INFO - Arquivo carregado: ITR_006505.xlsx
+2026-03-25 14:40:00,772 - INFO - Arquivo carregado: ITR_008133.xlsx
+2026-03-25 14:40:01,122 - INFO - Arquivo carregado: ITR_014443.xlsx
+2026-03-25 14:40:01,424 - INFO - Arquivo carregado: ITR_014460.xlsx
+2026-03-25 14:40:01,823 - INFO - Arquivo carregado: ITR_016292.xlsx
+2026-03-25 14:40:02,146 - INFO - Arquivo carregado: ITR_016659.xlsx
+2026-03-25 14:40:02,503 - INFO - Arquivo carregado: ITR_017329.xlsx
+2026-03-25 14:40:02,808 - INFO - Arquivo carregado: ITR_018465.xlsx
+2026-03-25 14:40:02,828 - INFO - Arquivo carregado: ITR_018627.xlsx
+2026-03-25 14:40:03,187 - INFO - Arquivo carregado: ITR_018660.xlsx
+2026-03-25 14:40:03,408 - INFO - Arquivo carregado: ITR_019348.xlsx
+2026-03-25 14:40:03,709 - INFO - Arquivo carregado: ITR_019445.xlsx
+2026-03-25 14:40:04,054 - INFO - Arquivo carregado: ITR_019992.xlsx
+2026-03-25 14:40:04,358 - INFO - Arquivo carregado: ITR_020257.xlsx
+2026-03-25 14:40:04,682 - INFO - Arquivo carregado: ITR_020362.xlsx
+2026-03-25 14:40:04,899 - INFO - Arquivo carregado: ITR_020532.xlsx
+2026-03-25 14:40:05,227 - INFO - Arquivo carregado: ITR_020575.xlsx
+2026-03-25 14:40:05,545 - INFO - Arquivo carregado: ITR_020605.xlsx
+2026-03-25 14:40:05,830 - INFO - Arquivo carregado: ITR_020770.xlsx
+2026-03-25 14:40:06,163 - INFO - Arquivo carregado: ITR_020788.xlsx
+2026-03-25 14:40:06,461 - INFO - Arquivo carregado: ITR_020915.xlsx
+2026-03-25 14:40:06,766 - INFO - Arquivo carregado: ITR_022470.xlsx
+2026-03-25 14:40:07,049 - INFO - Arquivo carregado: ITR_023159.xlsx
+2026-03-25 14:40:07,360 - INFO - Arquivo carregado: ITR_023795.xlsx
+2026-03-25 14:40:07,624 - INFO - Arquivo carregado: ITR_024180.xlsx
+2026-03-25 14:40:07,917 - INFO - Arquivo carregado: ITR_024295.xlsx
+2026-03-25 14:40:08,237 - INFO - Arquivo carregado: ITR_024910.xlsx
+2026-03-25 14:40:08,514 - INFO - Arquivo carregado: ITR_025585.xlsx
+2026-03-25 14:40:08,844 - INFO - Arquivo carregado: ITR_025917.xlsx
+2026-03-25 14:40:09,132 - INFO - Arquivo carregado: ITR_026620.xlsx
+2026-03-25 14:40:10,502 - INFO - JHSF3.SA processado com sucesso
+2026-03-25 14:43:46,058 - INFO - INÍCIO DO PIPELINE
+2026-03-25 14:43:55,833 - INFO - 020605 - BPA carregado (390, 15)
+2026-03-25 14:44:05,324 - INFO - 020605 - BPP carregado (750, 15)
+2026-03-25 14:44:13,692 - INFO - 020605 - DRE carregado (420, 16)
+2026-03-25 14:44:14,324 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_020605.xlsx
+2026-03-25 14:44:14,325 - INFO - Tempo total ITR: 28.267374277114868
+2026-03-25 14:44:16,779 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_020605.xlsx
+2026-03-25 14:44:17,281 - INFO - Tempo total DFP: 2.7552900314331055
+2026-03-25 14:44:17,298 - INFO - Iniciando transformação e cálculo de indicadores
+2026-03-25 14:44:17,824 - INFO - Arquivo carregado: ITR_000906.xlsx
+2026-03-25 14:44:18,023 - INFO - Arquivo carregado: ITR_001023.xlsx
+2026-03-25 14:44:18,246 - INFO - Arquivo carregado: ITR_001210.xlsx
+2026-03-25 14:44:18,635 - INFO - Arquivo carregado: ITR_002437.xlsx
+2026-03-25 14:44:19,001 - INFO - Arquivo carregado: ITR_003980.xlsx
+2026-03-25 14:44:19,323 - INFO - Arquivo carregado: ITR_004170.xlsx
+2026-03-25 14:44:19,682 - INFO - Arquivo carregado: ITR_006505.xlsx
+2026-03-25 14:44:19,986 - INFO - Arquivo carregado: ITR_008133.xlsx
+2026-03-25 14:44:20,481 - INFO - Arquivo carregado: ITR_014443.xlsx
+2026-03-25 14:44:20,882 - INFO - Arquivo carregado: ITR_014460.xlsx
+2026-03-25 14:44:21,277 - INFO - Arquivo carregado: ITR_016292.xlsx
+2026-03-25 14:44:21,607 - INFO - Arquivo carregado: ITR_016659.xlsx
+2026-03-25 14:44:21,979 - INFO - Arquivo carregado: ITR_017329.xlsx
+2026-03-25 14:44:22,293 - INFO - Arquivo carregado: ITR_018465.xlsx
+2026-03-25 14:44:22,316 - INFO - Arquivo carregado: ITR_018627.xlsx
+2026-03-25 14:44:22,681 - INFO - Arquivo carregado: ITR_018660.xlsx
+2026-03-25 14:44:22,903 - INFO - Arquivo carregado: ITR_019348.xlsx
+2026-03-25 14:44:23,224 - INFO - Arquivo carregado: ITR_019445.xlsx
+2026-03-25 14:44:23,583 - INFO - Arquivo carregado: ITR_019992.xlsx
+2026-03-25 14:44:23,882 - INFO - Arquivo carregado: ITR_020257.xlsx
+2026-03-25 14:44:24,210 - INFO - Arquivo carregado: ITR_020362.xlsx
+2026-03-25 14:44:24,445 - INFO - Arquivo carregado: ITR_020532.xlsx
+2026-03-25 14:44:24,868 - INFO - Arquivo carregado: ITR_020575.xlsx
+2026-03-25 14:44:25,238 - INFO - Arquivo carregado: ITR_020605.xlsx
+2026-03-25 14:44:25,543 - INFO - Arquivo carregado: ITR_020770.xlsx
+2026-03-25 14:44:25,930 - INFO - Arquivo carregado: ITR_020788.xlsx
+2026-03-25 14:44:26,247 - INFO - Arquivo carregado: ITR_020915.xlsx
+2026-03-25 14:44:26,580 - INFO - Arquivo carregado: ITR_022470.xlsx
+2026-03-25 14:44:26,884 - INFO - Arquivo carregado: ITR_023159.xlsx
+2026-03-25 14:44:27,202 - INFO - Arquivo carregado: ITR_023795.xlsx
+2026-03-25 14:44:27,470 - INFO - Arquivo carregado: ITR_024180.xlsx
+2026-03-25 14:44:27,772 - INFO - Arquivo carregado: ITR_024295.xlsx
+2026-03-25 14:44:28,103 - INFO - Arquivo carregado: ITR_024910.xlsx
+2026-03-25 14:44:28,388 - INFO - Arquivo carregado: ITR_025585.xlsx
+2026-03-25 14:44:28,729 - INFO - Arquivo carregado: ITR_025917.xlsx
+2026-03-25 14:44:29,028 - INFO - Arquivo carregado: ITR_026620.xlsx
+2026-03-25 14:44:30,714 - INFO - JHSF3.SA processado com sucesso
+2026-03-25 14:47:05,360 - INFO - INÍCIO DO PIPELINE
+2026-03-25 14:47:13,699 - INFO - 001210 - BPA carregado (282, 15)
+2026-03-25 14:47:22,747 - INFO - 001210 - BPP carregado (330, 15)
+2026-03-25 14:47:30,837 - INFO - 001210 - DRE carregado (400, 16)
+2026-03-25 14:47:31,302 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_001210.xlsx
+2026-03-25 14:47:39,021 - INFO - 001023 - BPA carregado (246, 15)
+2026-03-25 14:47:47,940 - INFO - 001023 - BPP carregado (246, 15)
+2026-03-25 14:47:56,049 - INFO - 001023 - DRE carregado (378, 16)
+2026-03-25 14:47:56,399 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_001023.xlsx
+2026-03-25 14:48:05,643 - INFO - 019348 - BPA carregado (246, 15)
+2026-03-25 14:48:17,189 - INFO - 019348 - BPP carregado (318, 15)
+2026-03-25 14:48:25,896 - INFO - 019348 - DRE carregado (436, 16)
+2026-03-25 14:48:26,441 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_019348.xlsx
+2026-03-25 14:48:35,817 - INFO - 000906 - BPA carregado (248, 15)
+2026-03-25 14:48:46,640 - INFO - 000906 - BPP carregado (258, 15)
+2026-03-25 14:48:55,949 - INFO - 000906 - DRE carregado (410, 16)
+2026-03-25 14:48:56,305 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_000906.xlsx
+2026-03-25 14:49:04,345 - INFO - 020532 - BPA carregado (206, 15)
+2026-03-25 14:49:13,295 - INFO - 020532 - BPP carregado (306, 15)
+2026-03-25 14:49:21,512 - INFO - 020532 - DRE carregado (434, 16)
+2026-03-25 14:49:21,877 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_020532.xlsx
+2026-03-25 14:49:29,951 - INFO - 025917 - BPA carregado (480, 15)
+2026-03-25 14:49:38,765 - INFO - 025917 - BPP carregado (686, 15)
+2026-03-25 14:49:46,535 - INFO - 025917 - DRE carregado (380, 16)
+2026-03-25 14:49:47,126 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_025917.xlsx
+2026-03-25 14:49:57,073 - INFO - 024295 - BPA carregado (438, 15)
+2026-03-25 14:50:07,655 - INFO - 024295 - BPP carregado (722, 15)
+2026-03-25 14:50:18,515 - INFO - 024295 - DRE carregado (380, 16)
+2026-03-25 14:50:19,073 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_024295.xlsx
+2026-03-25 14:50:29,409 - INFO - 018465 - BPA carregado (464, 15)
+2026-03-25 14:50:40,339 - INFO - 018465 - BPP carregado (752, 15)
+2026-03-25 14:50:50,866 - INFO - 018465 - DRE carregado (368, 16)
+2026-03-25 14:50:51,444 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_018465.xlsx
+2026-03-25 14:51:02,069 - INFO - 026620 - BPA carregado (456, 15)
+2026-03-25 14:51:12,438 - INFO - 026620 - BPP carregado (726, 15)
+2026-03-25 14:51:21,483 - INFO - 026620 - DRE carregado (362, 16)
+2026-03-25 14:51:22,073 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_026620.xlsx
+2026-03-25 14:51:31,516 - INFO - 020257 - BPA carregado (438, 15)
+2026-03-25 14:51:42,201 - INFO - 020257 - BPP carregado (696, 15)
+2026-03-25 14:51:51,432 - INFO - 020257 - DRE carregado (440, 16)
+2026-03-25 14:51:52,002 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_020257.xlsx
+2026-03-25 14:52:01,679 - INFO - 002437 - BPA carregado (508, 15)
+2026-03-25 14:52:12,907 - INFO - 002437 - BPP carregado (826, 15)
+2026-03-25 14:52:23,340 - INFO - 002437 - DRE carregado (452, 16)
+2026-03-25 14:52:23,998 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_002437.xlsx
+2026-03-25 14:52:34,465 - INFO - 017329 - BPA carregado (474, 15)
+2026-03-25 14:52:44,686 - INFO - 017329 - BPP carregado (698, 15)
+2026-03-25 14:52:53,962 - INFO - 017329 - DRE carregado (470, 16)
+2026-03-25 14:52:54,554 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_017329.xlsx
+2026-03-25 14:53:04,027 - INFO - 018660 - BPA carregado (480, 15)
+2026-03-25 14:53:16,030 - INFO - 018660 - BPP carregado (768, 15)
+2026-03-25 14:53:26,036 - INFO - 018660 - DRE carregado (414, 16)
+2026-03-25 14:53:26,656 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_018660.xlsx
+2026-03-25 14:53:36,051 - INFO - 020605 - BPA carregado (390, 15)
+2026-03-25 14:53:48,327 - INFO - 020605 - BPP carregado (750, 15)
+2026-03-25 14:53:59,605 - INFO - 020605 - DRE carregado (420, 16)
+2026-03-25 14:54:00,170 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_020605.xlsx
+2026-03-25 14:54:10,064 - INFO - 014460 - BPA carregado (444, 15)
+2026-03-25 14:54:20,615 - INFO - 014460 - BPP carregado (754, 15)
+2026-03-25 14:54:31,272 - INFO - 014460 - DRE carregado (376, 16)
+2026-03-25 14:54:31,839 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_014460.xlsx
+2026-03-25 14:54:41,920 - INFO - 020915 - BPA carregado (462, 15)
+2026-03-25 14:54:52,793 - INFO - 020915 - BPP carregado (756, 15)
+2026-03-25 14:55:03,143 - INFO - 020915 - DRE carregado (340, 16)
+2026-03-25 14:55:03,738 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_020915.xlsx
+2026-03-25 14:55:13,906 - INFO - 020770 - BPA carregado (378, 15)
+2026-03-25 14:55:25,621 - INFO - 020770 - BPP carregado (718, 15)
+2026-03-25 14:55:37,180 - INFO - 020770 - DRE carregado (348, 16)
+2026-03-25 14:55:37,703 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_020770.xlsx
+2026-03-25 14:55:47,971 - INFO - 018627 - BPA carregado (0, 15)
+2026-03-25 14:55:59,507 - INFO - 018627 - BPP carregado (0, 15)
+2026-03-25 14:56:08,388 - INFO - 018627 - DRE carregado (0, 16)
+2026-03-25 14:56:08,428 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_018627.xlsx
+2026-03-25 14:56:18,463 - INFO - 014443 - BPA carregado (414, 15)
+2026-03-25 14:56:29,165 - INFO - 014443 - BPP carregado (756, 15)
+2026-03-25 14:56:38,696 - INFO - 014443 - DRE carregado (434, 16)
+2026-03-25 14:56:39,280 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_014443.xlsx
+2026-03-25 14:56:49,792 - INFO - 019445 - BPA carregado (462, 15)
+2026-03-25 14:56:59,160 - INFO - 019445 - BPP carregado (746, 15)
+2026-03-25 14:57:09,608 - INFO - 019445 - DRE carregado (406, 16)
+2026-03-25 14:57:10,189 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_019445.xlsx
+2026-03-25 14:57:19,124 - INFO - 023159 - BPA carregado (408, 15)
+2026-03-25 14:57:30,399 - INFO - 023159 - BPP carregado (426, 15)
+2026-03-25 14:57:40,432 - INFO - 023159 - DRE carregado (644, 16)
+2026-03-25 14:57:40,970 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_023159.xlsx
+2026-03-25 14:57:50,298 - INFO - 023795 - BPA carregado (372, 15)
+2026-03-25 14:58:01,369 - INFO - 023795 - BPP carregado (642, 15)
+2026-03-25 14:58:10,776 - INFO - 023795 - DRE carregado (362, 16)
+2026-03-25 14:58:11,272 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_023795.xlsx
+2026-03-25 14:58:21,897 - INFO - 016659 - BPA carregado (458, 15)
+2026-03-25 14:58:32,712 - INFO - 016659 - BPP carregado (708, 15)
+2026-03-25 14:58:41,953 - INFO - 016659 - DRE carregado (526, 16)
+2026-03-25 14:58:42,564 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_016659.xlsx
+2026-03-25 14:58:53,119 - INFO - 024180 - BPA carregado (420, 15)
+2026-03-25 14:59:03,728 - INFO - 024180 - BPP carregado (426, 15)
+2026-03-25 14:59:13,101 - INFO - 024180 - DRE carregado (560, 16)
+2026-03-25 14:59:13,614 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_024180.xlsx
+2026-03-25 14:59:23,710 - INFO - 019992 - BPA carregado (424, 15)
+2026-03-25 14:59:33,566 - INFO - 019992 - BPP carregado (720, 15)
+2026-03-25 14:59:42,606 - INFO - 019992 - DRE carregado (404, 16)
+2026-03-25 14:59:43,163 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_019992.xlsx
+2026-03-25 14:59:51,882 - INFO - 024910 - BPA carregado (414, 15)
+2026-03-25 15:00:02,093 - INFO - 024910 - BPP carregado (734, 15)
+2026-03-25 15:00:12,089 - INFO - 024910 - DRE carregado (310, 16)
+2026-03-25 15:00:12,613 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_024910.xlsx
+2026-03-25 15:00:23,070 - INFO - 020362 - BPA carregado (416, 15)
+2026-03-25 15:00:33,287 - INFO - 020362 - BPP carregado (720, 15)
+2026-03-25 15:00:43,222 - INFO - 020362 - DRE carregado (340, 16)
+2026-03-25 15:00:43,758 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_020362.xlsx
+2026-03-25 15:00:52,868 - INFO - 022470 - BPA carregado (384, 15)
+2026-03-25 15:01:04,304 - INFO - 022470 - BPP carregado (666, 15)
+2026-03-25 15:01:15,615 - INFO - 022470 - DRE carregado (320, 16)
+2026-03-25 15:01:16,110 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_022470.xlsx
+2026-03-25 15:01:25,852 - INFO - 008133 - BPA carregado (404, 15)
+2026-03-25 15:01:35,218 - INFO - 008133 - BPP carregado (708, 15)
+2026-03-25 15:01:45,127 - INFO - 008133 - DRE carregado (340, 16)
+2026-03-25 15:01:45,655 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_008133.xlsx
+2026-03-25 15:01:55,541 - INFO - 006505 - BPA carregado (392, 15)
+2026-03-25 15:02:06,033 - INFO - 006505 - BPP carregado (690, 15)
+2026-03-25 15:02:15,288 - INFO - 006505 - DRE carregado (350, 16)
+2026-03-25 15:02:15,813 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_006505.xlsx
+2026-03-25 15:02:24,302 - INFO - 004170 - BPA carregado (384, 15)
+2026-03-25 15:02:34,958 - INFO - 004170 - BPP carregado (744, 15)
+2026-03-25 15:02:45,480 - INFO - 004170 - DRE carregado (340, 16)
+2026-03-25 15:02:46,010 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_004170.xlsx
+2026-03-25 15:02:55,629 - INFO - 003980 - BPA carregado (420, 15)
+2026-03-25 15:03:05,757 - INFO - 003980 - BPP carregado (708, 15)
+2026-03-25 15:03:14,933 - INFO - 003980 - DRE carregado (454, 16)
+2026-03-25 15:03:15,502 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_003980.xlsx
+2026-03-25 15:03:24,723 - INFO - 025585 - BPA carregado (384, 15)
+2026-03-25 15:03:34,721 - INFO - 025585 - BPP carregado (684, 15)
+2026-03-25 15:03:44,246 - INFO - 025585 - DRE carregado (336, 16)
+2026-03-25 15:03:44,754 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_025585.xlsx
+2026-03-25 15:03:56,767 - INFO - 020575 - BPA carregado (468, 15)
+2026-03-25 15:04:06,960 - INFO - 020575 - BPP carregado (762, 15)
+2026-03-25 15:04:16,932 - INFO - 020575 - DRE carregado (300, 16)
+2026-03-25 15:04:17,485 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_020575.xlsx
+2026-03-25 15:04:27,604 - INFO - 020788 - BPA carregado (468, 15)
+2026-03-25 15:04:37,127 - INFO - 020788 - BPP carregado (750, 15)
+2026-03-25 15:04:47,165 - INFO - 020788 - DRE carregado (348, 16)
+2026-03-25 15:04:47,731 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_020788.xlsx
+2026-03-25 15:04:58,439 - INFO - 016292 - BPA carregado (552, 15)
+2026-03-25 15:05:09,996 - INFO - 016292 - BPP carregado (858, 15)
+2026-03-25 15:05:19,637 - INFO - 016292 - DRE carregado (340, 16)
+2026-03-25 15:05:20,265 - INFO - Arquivo salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\itr\ITR_016292.xlsx
+2026-03-25 15:05:20,266 - INFO - Tempo total ITR: 1094.9046771526337
+2026-03-25 15:05:22,984 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_001210.xlsx
+2026-03-25 15:05:23,558 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_001023.xlsx
+2026-03-25 15:05:24,140 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_019348.xlsx
+2026-03-25 15:05:24,709 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_000906.xlsx
+2026-03-25 15:05:25,278 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_020532.xlsx
+2026-03-25 15:05:25,845 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_025917.xlsx
+2026-03-25 15:05:26,416 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_024295.xlsx
+2026-03-25 15:05:26,979 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_018465.xlsx
+2026-03-25 15:05:27,550 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_026620.xlsx
+2026-03-25 15:05:28,162 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_020257.xlsx
+2026-03-25 15:05:28,730 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_002437.xlsx
+2026-03-25 15:05:29,300 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_017329.xlsx
+2026-03-25 15:05:29,873 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_018660.xlsx
+2026-03-25 15:05:30,427 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_020605.xlsx
+2026-03-25 15:05:31,008 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_014460.xlsx
+2026-03-25 15:05:31,577 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_020915.xlsx
+2026-03-25 15:05:32,131 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_020770.xlsx
+2026-03-25 15:05:32,682 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_018627.xlsx
+2026-03-25 15:05:33,234 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_014443.xlsx
+2026-03-25 15:05:33,800 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_019445.xlsx
+2026-03-25 15:05:34,391 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_023159.xlsx
+2026-03-25 15:05:34,975 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_023795.xlsx
+2026-03-25 15:05:35,558 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_016659.xlsx
+2026-03-25 15:05:36,142 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_024180.xlsx
+2026-03-25 15:05:36,752 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_019992.xlsx
+2026-03-25 15:05:37,315 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_024910.xlsx
+2026-03-25 15:05:37,892 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_020362.xlsx
+2026-03-25 15:05:38,455 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_022470.xlsx
+2026-03-25 15:05:39,032 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_008133.xlsx
+2026-03-25 15:05:39,605 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_006505.xlsx
+2026-03-25 15:05:40,175 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_004170.xlsx
+2026-03-25 15:05:40,751 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_003980.xlsx
+2026-03-25 15:05:41,302 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_025585.xlsx
+2026-03-25 15:05:41,856 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_020575.xlsx
+2026-03-25 15:05:42,435 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_020788.xlsx
+2026-03-25 15:05:43,010 - INFO - DFP salvo: c:\github_petruzl\Analise_Acoes_Bolsa_Valores_B3\data\raw\dfp\DFP_016292.xlsx
+2026-03-25 15:05:43,511 - INFO - Tempo total DFP: 23.07513403892517
+2026-03-25 15:05:43,537 - INFO - Iniciando transformação e cálculo de indicadores
+2026-03-25 15:05:44,100 - INFO - Arquivo carregado: ITR_000906.xlsx
+2026-03-25 15:05:44,305 - INFO - Arquivo carregado: ITR_001023.xlsx
+2026-03-25 15:05:44,535 - INFO - Arquivo carregado: ITR_001210.xlsx
+2026-03-25 15:05:45,000 - INFO - Arquivo carregado: ITR_002437.xlsx
+2026-03-25 15:05:45,358 - INFO - Arquivo carregado: ITR_003980.xlsx
+2026-03-25 15:05:45,655 - INFO - Arquivo carregado: ITR_004170.xlsx
+2026-03-25 15:05:45,981 - INFO - Arquivo carregado: ITR_006505.xlsx
+2026-03-25 15:05:46,274 - INFO - Arquivo carregado: ITR_008133.xlsx
+2026-03-25 15:05:46,633 - INFO - Arquivo carregado: ITR_014443.xlsx
+2026-03-25 15:05:46,943 - INFO - Arquivo carregado: ITR_014460.xlsx
+2026-03-25 15:05:47,314 - INFO - Arquivo carregado: ITR_016292.xlsx
+2026-03-25 15:05:47,645 - INFO - Arquivo carregado: ITR_016659.xlsx
+2026-03-25 15:05:48,007 - INFO - Arquivo carregado: ITR_017329.xlsx
+2026-03-25 15:05:48,321 - INFO - Arquivo carregado: ITR_018465.xlsx
+2026-03-25 15:05:48,352 - INFO - Arquivo carregado: ITR_018627.xlsx
+2026-03-25 15:05:48,721 - INFO - Arquivo carregado: ITR_018660.xlsx
+2026-03-25 15:05:48,951 - INFO - Arquivo carregado: ITR_019348.xlsx
+2026-03-25 15:05:49,265 - INFO - Arquivo carregado: ITR_019445.xlsx
+2026-03-25 15:05:49,616 - INFO - Arquivo carregado: ITR_019992.xlsx
+2026-03-25 15:05:49,926 - INFO - Arquivo carregado: ITR_020257.xlsx
+2026-03-25 15:05:50,264 - INFO - Arquivo carregado: ITR_020362.xlsx
+2026-03-25 15:05:50,480 - INFO - Arquivo carregado: ITR_020532.xlsx
+2026-03-25 15:05:50,820 - INFO - Arquivo carregado: ITR_020575.xlsx
+2026-03-25 15:05:51,137 - INFO - Arquivo carregado: ITR_020605.xlsx
+2026-03-25 15:05:51,430 - INFO - Arquivo carregado: ITR_020770.xlsx
+2026-03-25 15:05:51,772 - INFO - Arquivo carregado: ITR_020788.xlsx
+2026-03-25 15:05:52,077 - INFO - Arquivo carregado: ITR_020915.xlsx
+2026-03-25 15:05:52,406 - INFO - Arquivo carregado: ITR_022470.xlsx
+2026-03-25 15:05:52,698 - INFO - Arquivo carregado: ITR_023159.xlsx
+2026-03-25 15:05:53,015 - INFO - Arquivo carregado: ITR_023795.xlsx
+2026-03-25 15:05:53,289 - INFO - Arquivo carregado: ITR_024180.xlsx
+2026-03-25 15:05:53,592 - INFO - Arquivo carregado: ITR_024295.xlsx
+2026-03-25 15:05:53,919 - INFO - Arquivo carregado: ITR_024910.xlsx
+2026-03-25 15:05:54,202 - INFO - Arquivo carregado: ITR_025585.xlsx
+2026-03-25 15:05:54,543 - INFO - Arquivo carregado: ITR_025917.xlsx
+2026-03-25 15:05:54,840 - INFO - Arquivo carregado: ITR_026620.xlsx
+2026-03-25 15:05:56,110 - INFO - BRSR3.SA processado com sucesso
+2026-03-25 15:05:56,828 - INFO - BBAS3.SA processado com sucesso
+2026-03-25 15:05:57,565 - INFO - ITUB3.SA processado com sucesso
+2026-03-25 15:05:58,527 - INFO - BBDC3.SA processado com sucesso
+2026-03-25 15:05:59,222 - INFO - SANB3.SA processado com sucesso
+2026-03-25 15:05:59,888 - INFO - RAIZ4.SA processado com sucesso
+2026-03-25 15:06:00,524 - INFO - VBBR3.SA processado com sucesso
+2026-03-25 15:06:01,266 - INFO - UGPA3.SA processado com sucesso
+2026-03-25 15:06:02,161 - INFO - AURE3.SA processado com sucesso
+2026-03-25 15:06:03,068 - INFO - TAEE3.SA processado com sucesso
+2026-03-25 15:06:04,031 - INFO - AXIA3.SA processado com sucesso
+2026-03-25 15:06:04,810 - INFO - EGIE3.SA processado com sucesso
+2026-03-25 15:06:05,504 - INFO - CPFE3.SA processado com sucesso
+2026-03-25 15:06:06,197 - INFO - JHSF3.SA processado com sucesso
+2026-03-25 15:06:06,906 - INFO - CYRE3.SA processado com sucesso
+2026-03-25 15:06:07,595 - INFO - MRVE3.SA processado com sucesso
+2026-03-25 15:06:08,558 - INFO - EZTC3.SA processado com sucesso
+2026-03-25 15:06:09,470 - INFO - SAPR3.SA processado com sucesso
+2026-03-25 15:06:10,369 - INFO - SBSP3.SA processado com sucesso
+2026-03-25 15:06:11,047 - INFO - CSMG3.SA processado com sucesso
+2026-03-25 15:06:11,794 - INFO - BBSE3.SA processado com sucesso
+2026-03-25 15:06:12,680 - INFO - CXSE3.SA processado com sucesso
+2026-03-25 15:06:13,352 - INFO - PSSA3.SA processado com sucesso
+2026-03-25 15:06:14,038 - INFO - IRBR3.SA processado com sucesso
+2026-03-25 15:06:14,729 - INFO - TOTS3.SA processado com sucesso
+2026-03-25 15:06:15,381 - INFO - LWSA3.SA processado com sucesso
+2026-03-25 15:06:16,285 - INFO - POSI3.SA processado com sucesso
+2026-03-25 15:06:16,934 - INFO - MGLU3.SA processado com sucesso
+2026-03-25 15:06:17,650 - INFO - LREN3.SA processado com sucesso
+2026-03-25 15:06:18,312 - INFO - BHIA3.SA processado com sucesso
+2026-03-25 15:06:19,010 - INFO - VALE3.SA processado com sucesso
+2026-03-25 15:06:19,708 - INFO - GGBR4.SA processado com sucesso
+2026-03-25 15:06:20,863 - INFO - CSNA3.SA processado com sucesso
+2026-03-25 15:06:21,320 - ERROR - $JBSS3.SA: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-25 15:06:21,321 - WARNING - JBSS3.SA sem dados
+2026-03-25 15:06:21,814 - ERROR - $MRFG3.SA: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-25 15:06:21,815 - WARNING - MRFG3.SA sem dados
+2026-03-25 15:06:22,495 - ERROR - $BRFS3.SA: possibly delisted; no price data found  (period=1d) (Yahoo error = "No data found, symbol may be delisted")
+2026-03-25 15:06:22,497 - WARNING - BRFS3.SA sem dados
